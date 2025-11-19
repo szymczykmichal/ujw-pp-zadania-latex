@@ -1,0 +1,58 @@
+\documentclass{exam}[a4paper]
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{chemarrow}
+\usepackage{amsfonts}
+
+\extrawidth{1in}
+\extraheadheight{-.5in}
+\extrafootheight{-.5in}
+
+\begin{document}
+ 
+ \begin{center}
+ Zadania z języka C\\
+ % KOLOKWIUM NR 2 ?- grupa \textbf{A}\\
+ % \emph{28.07.2018}
+ \end{center}
+ 
+ \section{Zadania podstawowe}
+\begin{enumerate}
+  \item Napisz program sprawdzający czy podana liczba jest jest parzysta czy nie.
+  \item Napisz program zwracający sumę n liczb naturalnych.
+  \item Napisz program obliczający iteracyjnie wartość silni dla wybranej wartości n.
+  \item Stwórz program wypisujący na ekranie tabliczkę mnożenia w postaci dwu wymiarowej macierzy.
+  \item Stwórz program odwracający dowolną liczbę naturalną. Program nie powinien wykonywać konwersji na typ znakowy.
+  \item Stwórz program znajdujący największy element w tablicy losowych elementów całkowitoliczbowych.
+  \item Napisz program sprawdzający czy podana liczba jest liczba pierwszą - wykorzystaj pętle i dzielenie przez kolejne liczby naturalne.
+  \item Napisz program przyjmujący ciąg znaków od użytkownika i sprawdzający czy podany ciąg jest palindromem.
+  \item Napisz program obliczający pierwiastki równania kwadratowego.
+  \item Napisz program wyznaczający wyznacznik macierzy.
+  \item Napisz program przyjmujący ciąg znaków od użytkownika i zamiejający każda dużą literę na małą i małą na dużą.
+  \item Napisz program dokonujący konwersji liczby z rzymskiego systemu zapisywania liczb na system pozycyjny dziesiętny. 
+  \item Napisz program, który dokonuje konkatenacji dwóch tablic  \texttt{[a,b,c], [1,2,3] → [a,b,c,1,2,3]}.
+  \item Napisz program, który łączy dwie tablice dobierając elementy naprzemiennie \texttt{[a,b,c], [1,2,3] → [a,1,b,2,c,3]}.
+  \item Napisz program, który połączy dwie posortowane tablice w jedną posortowaną tablicę\\ \texttt{[1,4,6],[2,3,5] → [1,2,3,4,5,6]}.
+  \item Napisz program, który dokonuje rotacji tablicy $n$-elementowej o $k$ elementów, tj. tablica \texttt{[1,2,3,4,5,6]} przesunięta o 2 elementy staje się \texttt{[3,4,5,6,1,2]}. Rozważ co się stanie gdy $k > n$ lub należy do zbioru liczb całkowitych $\mathbb{Z} = \{0, \pm1, \pm2, \ldots\}$.
+
+\end{enumerate}
+
+ \section{Zadania nieco trudniejsze}
+\begin{enumerate}
+  \item Napisz program realizujący niezoptymalizowany algorytm Euklidesa.
+  \item Napisz program przyjmujący ciąg znaków i zwracający tekst zaszyfrowany za pomocą szyfru Cezara. 
+  \item Napisz program jednocześnie wyszukujący wartość maksymalna i minimalną w tablicy elementów. 
+  \item Napisz program realizujący sito Eratostenesa. 
+  \item Napisz program realizujący algorytm szybkiego potęgowania. 
+  \item Napisz program realizujący mnożenie dwóch macierzy kwadratowych.
+  \item Napisz program realizujący wyznaczanie n-tej liczby w szeregu Fibonacciego. Program zrealizują wykorzystując podejście rekurencyjne, iteracyjne, programowanie dynamiczne i macierze liczb Fibonacciego. 
+    \item  Napisz trzy programy sumujące elementy w tablicy, które wykorzystują pętle \texttt{for}, \texttt{while} i rekurencje.
+    \item Napisz program, który wypisuje wszystkie możliwe kombinacje znaków +, - lub niczego wstawionych między liczby z przedziału $\{1, 2,\ldots, 9\}$ (w podanej kolejności), tak aby wynik wynosił $100$. Na przykład $1 + 2 + 3 - 4 + 5 + 6 + 78 + 9 = 100$. Najpierw rozwiąż problem wykorzystujące metodę brute-force a następnie przejdź do rozwiązań bardziej wydajnych.
+    
+
+\end{enumerate}
+ 
+
+\end{document}
